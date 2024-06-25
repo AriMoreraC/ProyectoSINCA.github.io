@@ -1,0 +1,71 @@
+/* Barra lateral */
+.sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 25%;
+  background-color: rgba(38, 106, 173, 0.65);
+  padding-top: 1.5em;
+  overflow: scroll;
+  overflow-x: hidden;
+  z-index: 999;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 1rem;
+  justify-content: left;
+
+  .containerArticulo {
+    padding-bottom: 1em;
+    max-width: 100%;
+    display: flex;
+
+    li a {
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      text-align: left;
+      color: white;
+      text-decoration: none;
+      font-size: 1.17rem;
+    }
+
+    img {
+      float: left;
+      max-width: 35%;
+      padding: 0.5em;
+    }
+  }
+}
+
+.sidebar ul li a:hover {
+  background-color: rgba(38, 106, 173, 1);
+}
+
+/* Ícono de menú */
+.sidebar {
+  .menuLateral {
+    padding-bottom: 2em;
+    max-width: 100%;
+
+    b {
+      color: white;
+      position: relative;
+      font-size: 2em;
+      margin-left: 5%;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      float: right;
+      margin-right: 5%;
+    }
+
+    .material-icons {
+      font-size: 2.5em;
+    }
+  }
+}

@@ -1,0 +1,102 @@
+.regresar {
+  display: block;
+  float: left;
+  position: relative;
+  left: 1em;
+  bottom: 6em;
+  overflow: hidden;
+
+  a {
+    padding: 0;
+    overflow: hidden;
+    font-size: 2em;
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+main {
+  p {
+    padding: 0.3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 1.2em;
+  }
+
+  img {
+    padding: 1em;
+    max-width: 45%;
+    height: auto;
+  }
+
+  figcaption {
+    margin: 0.5rem;
+
+    font-size: 1.5vw;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+.container {
+  text-align: center;
+
+  img {
+    text-align: center;
+  }
+
+  figcaption {
+    text-align: center;
+    color: black;
+  }
+}
+
+.protocolo {
+
+  max-width: 80%;
+  padding: 1em;
+  background-color: #266aae;
+  box-shadow: 4px 4px 6px #26AB2E;
+
+  ol {  
+
+    padding-left: 1.5em;
+    margin: 2.5%;
+  }
+
+  li {
+    padding: 0.5em;
+    text-align: left;   
+    margin: 2.5%;
+  }
+}
+
+/* .container-principal{
+
+  margin: 2rem;
+  text-align: center;
+  position: relative;
+  margin: 2.5%;
+}*/
+.img-container{
+  justify-content: center;
+  margin: 1.5rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: #fff;
+  .container img{
+    margin: 0%;
+    max-width: 70%;
+  }
+}
+
+.info-container{
+  text-align: center;
+  justify-content: center;
+  margin: 1.5rem;
+  background-color: #266aae;
+  box-shadow: 4px 4px 6px #26AB2E;
+color: #fff;
+    text-align: center;
+
+} 

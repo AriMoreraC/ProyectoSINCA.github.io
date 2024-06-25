@@ -1,0 +1,33 @@
+img {
+    align-items: center;
+    justify-content: center;
+    max-width: 30%;
+    margin: 1.5rem;
+    border-radius: 45%;
+}
+
+.autores {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.autor {
+    color: #fff;
+    background-color: #266aae;
+    flex: 50%;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 4px 4px 6px #26AB2E;
+    margin: 2rem;
+    border-radius: 1rem;
+}
+
+.autor li {
+    list-style: none;
+}
+
+body {
+    text-align: center;
+}

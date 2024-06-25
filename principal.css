@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  background-image: linear-gradient(rgba(38, 106, 173, 0.8), rgba(38, 106, 173, 0.80)),
+    url(./Imagenes/NombreEmpresa.png);
+  color: #fff;
+
+  h1 {
+    font-size: 8rem;
+  }
+
+}
+
+
+/* -------------------------------------- */
+nav {
+  ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #4c3479;
+    overflow: hidden;
+    position: relative;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    padding: 0.875em 1em;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #45024b;
+  }
+}
+
+/* ----------------nav del footer------------------------- */
+
+
+.navegador-footer {
+  background-color: #4C3479;
+  font-size: 1rem;
+  padding: 0.75%;
+  bottom: 0px;
+  color: #fff;
+
+}
+
+.navegador-footer ul {
+  list-style: none;
+  display: flex;
+
+  background-color: #4C3479;
+
+  a {
+    background-color: #4C3479;
+    color: #fff;
+  }
+}
+
+.navegador-footer ul li {
+
+  margin-left: 5%;
+
+
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  list-style: none;
+  background-color: #4C3479;
+  color: #fff;
+
+  main {
+    text-align: center;
+    font-size: 1.17rem;
+  }
+
+}
+
+.contenedor-footer h2 {
+  margin: 1rem;
+}
+
+@media (max-width : 640px) {
+
+  header {
+    text-align: center;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  body {
+    font-size: 1rem;
+  }
+
+}
+
+#tituloPrincipal {
+  color: #fff;
+  font-size: 1.5rem;
+  background-color: #4c3479;
+  box-shadow: 4px 4px 6px #26AB2E;
+  text-align: center;
+}

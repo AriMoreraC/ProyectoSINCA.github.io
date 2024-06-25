@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinca</title> <!-- Título del enlace -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./css/estiloPreguntas.css">
+    <link rel="stylesheet" href="./principal.css">
+</head>
+
+<body>
+    <header> <!-- Título de la página -->
+        <h1>SINCA</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li><a href="./productoYservicios.html">Servicios</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./preguntasFrecuentes.html">Preguntas frecuentes</a></li>
+            <li><a href="./acercaDe.html">Acerca de</a></li>
+        </ul>
+    </nav>
+    <h1 id="tituloPrincipal">Preguntas frecuentes</h1>
+    <main>
+        
+        <div id="contenedor">
+            <button class="button" onclick="toggleContainer('pregunta1')">
+                En la trampa de grasa, no se retiene la grasa, ¿podría ser un problema?
+            </button>
+            <div class="container" id="pregunta1">
+                <p>
+                    Si la trampa no retiene la grasa, ésta parará a la tubería principal y podría
+                    provocar un bloqueo de la misma, colapsando el sistema de aguas servidas.
+                </p>
+            </div>
+
+            <button class="buttonA" onclick="toggleContainer('pregunta2')">
+                ¿Cuál es el costo por metro cuadrado de pintura para el interior de una vivienda?
+            </button>
+            <div class="container" id="pregunta2">
+                <p>
+                    Los costos de pintura están entre los 2500 y 4000 colones por metro cuadrado
+                    en el interior de una vivienda.
+                </p>
+            </div>
+
+            <button class="button" onclick="toggleContainer('pregunta3')">
+                Las paredes de la casa presentan grietas, ¿debo preocuparme por ello?
+            </button>
+            <div class="container" id="pregunta3">
+                <p>
+                    Las grietas o fisuras pueden permitir el ingreso de humedad en las paredes,
+                    provocando deterioro de repellos y pintura. Por ello deben ser corregidas
+                    con prontitud.
+                </p>
+            </div>
+
+            <button class="buttonA" onclick="toggleContainer('pregunta4')">
+                ¿El inodoro no baja con fuerza desde su instalación?
+            </button>
+            <div class="container" id="pregunta4">
+                <p>
+                    Generalmente obedece a falta de graduación de la válvula de llenado o a que
+                    no está centrado en el desagüe.
+                </p>
+            </div>
+
+            <button class="button" onclick="toggleContainer('pregunta5')">
+                ¿El inodoro continúa soltando agua constantemente?
+            </button>
+            <div class="container" id="pregunta5">
+                <p>
+                    Se debe cambiar el sapito y limpiar el asiento del mismo.
+                </p>
+            </div>
+
+            <button class="buttonA" onclick="toggleContainer('pregunta6')">
+                Cuando enciendo el microondas se dispara el breker, ¿cuál sería mi problema?
+            </button>
+            <div class="container" id="pregunta6">
+                <p>
+                    El breker debe estar sobrecargado para su capacidad.
+                </p>
+            </div>
+
+            <button class="button" onclick="toggleContainer('pregunta7')">
+                ¿Cuánto es el costo por metro cuadrado de pintura para un techo de lámina de zinc?
+            </button>
+            <div class="container" id="pregunta7">
+                <p>
+                    El costo de pintura para techo se encuentra entre 1800 y 2500
+                    colones por metro cuadrado.
+                </p>
+            </div>
+
+            <button class="buttonA" onclick="toggleContainer('pregunta8')">
+                ¿Por qué sale mal olor por el desagüe de la ducha?
+            </button>
+            <div class="container" id="pregunta8">
+                <p>
+                    En la mayoría de los casos, el desagüe no tiene sifón o trampa de gases y no
+                    existe un respiradero en el sistema de tubería.
+                </p>
+            </div>
+
+            <button class="button" onclick="toggleContainer('pregunta9')">
+                ¿Al cerrar la ducha del baño de la planta alta se escucha un golpe de la tubería
+                por las paredes?
+            </button>
+            <div class="container" id="pregunta9">
+                <p>
+                    Se conoce como golpe de ariete, provocado por el agua que retorna de la tubería.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <nav class="navegador-footer">
+                <h2>Contáctanos por nuestras redes sociales y números de teléfono</h2>
+                <ul>
+                    <div>
+                        <li><a href="https://www.instagram.com/gruposinca/"><img src="./Imagenes/Instagram_.png"
+                                    alt="Imagen de Instagram" width="6%" height="6%">Instagram</a></li>
+                    </div>
+                    <div>
+                        <li><a href="http://x.com/GrupoSinca"><img src="./Imagenes/twitter.png" alt="Imagen de Twitter"
+                                    width="10%" height="10%">Twitter</a></li>
+                    </div>
+                    <div>
+                        <li><img src="./Imagenes/Whatsapp_37229.png" alt="Imagen de WhatsApp" width="10%"
+                                height="10%">+506 87355763</li>
+                    </div>
+                    <div>
+                        <li><img src="./Imagenes/Whatsapp_37229.png" alt="Imagen de WhatsApp" width="10%"
+                                height="10%">+506 87406952</li>
+                    </div>
+                    <div>
+                        <li><img src="./Imagenes/gmail.png" alt="Imagen de Gmail" width="8%"
+                                height="8%">sincacostarica@gmail.com</li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script>
+        function toggleContainer(IdContainer) {
+            const container = document.getElementById(IdContainer);
+            container.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
